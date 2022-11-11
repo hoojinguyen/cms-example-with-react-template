@@ -4,7 +4,7 @@
 type(scope?): subject
 ```
 
-### type ở trên có thể là:
+### Type:
 + build: Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
 + ci: Changes to our CI configuration files and scripts (example scopes: Gitlab CI, Circle, BrowserStack, SauceLabs)
 + chore: add something without touching production code (Eg: update npm dependencies)
